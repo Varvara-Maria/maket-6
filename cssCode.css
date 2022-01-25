@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,  i{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin: 0;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.main {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background: url("ADT0945.jpg") center no-repeat;
+    background-size: cover; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lines {
+    display: block;
+    margin: 0 150px 0 0;
+    cursor: pointer;
+}
+
+
+.first__line {
+    height: 4px;
+    width: 60px;
+    background-color: rgb(151, 29, 29);
+    margin-bottom: 5px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.second__line {
+    height: 4px;
+    width: 40px;
+    background-color: rgb(122, 21, 21);;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.third__line {
+    height: 4px;
+    width: 20px;
+    background-color: rgb(122, 21, 21);;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.main__intro {
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+
+.main__left {
+    margin: 180px 0 0 150px;
+    width: 50%;
+}
+
+.main__text_white {
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main__text_red {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: rgb(122, 21, 21);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.main__button {
+    padding: 10px 80px;
+    border: 2px solid rgb(122, 21, 21);
+}
+
+.main__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    margin-top: 50px;
+}
+
+.main__lines {
+    display: grid;
+    place-items: end;
+    border-top: 70px solid rgba(122, 21, 21, 0.473);
+    border-bottom: 70px solid rgba(122, 21, 21, 0.473);
+    border-left: 70px solid rgba(122, 21, 21, 0.473);
+    padding: 150px;
+    margin-left: 290px;
+}
+
+.main__line {
+    height: 2px;
+    background-color: rgb(122, 21, 21);
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.main__line:nth-child(2)  {
+    width: 70px;
+}
+
+.main__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__footer_left {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 150px;
+}
+
+.footer__text_white {
+    font-size: 20px;
+}
+
+.footer__text_red {
+    font-size: 35px;
+    color: rgb(122, 21, 21);
+}
+
+.main__footer_right {
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+.fab {
+    color: rgb(122, 21, 21);
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.portraits {
+    background-color: #2f2f31;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.portraits__left{
+    margin-top: 40px;
+}
+
+.fa-arrow-up {
+    position: absolute;
+    font-size: 30px;
+    transform: rotate(-45deg);
+}
+
+.portraits__center {
+    display: block;
+    margin: 125px 0 0 235px;
+}
+
+.portraits__number {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(122, 21, 21);
+    margin-top: -40px;
+    margin-left: -13px;
+}
+
+.portraits__text {
+    width: 50%;
+    font-size: 15px;
+    margin-left: -13px;
+    color: #6c6c6e;
+    line-height: 1.6;
+}
+
+.portraits__title {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.portraits__right img {
+  margin-top: 150px;  
+}
+
+.portraits__left img, .portraits__center img, 
+.portraits__right img {
+    width: 350px;
+    height: 470px;
+}
+
+.backstage {
+    background-color: #2f2f31;
+    width: 100%;
+    height: 80vh;
+    padding-top: 150px;
+}
+
+.backstage img {
+    width: 600px;
+    height: 500px;
+    border-radius: 55% 78% 25% 13%;
+}
+
+.back__title {
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.back__text {
+    width: 90%;
+    font-size: 15px;
+    margin-left: 40px;
+    color: #6c6c6e;
+    line-height: 1.6;
+    margin: 10px 0 40px 80px;
+    text-align: right;
+}
+
+.backstage .backItUp .main__button {
+    margin-left: 130px;
+    align-self: right;
+}
+
+.services {
+    background-color: #2f2f31;
+    width: 100%;
+    height: 25vh;
+}
+
+.services__title {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+
+.services__text {
+    width: 55%;
+    font-size: 15px;
+    color: #6c6c6e;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.services .main__button {
+    margin-right: 0;
+}
+
+section {
+    background-color: #2f2f31;
+    width: 100%;
+    height: 50vh;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 200px 0 200px;
+}
+
+.about__info {
+    margin-top: 75px;
+    position: relative;
+}
+
+.about__intro {
+    position: relative;
+    z-index: 10;
+}
+
+.about__title {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 8px;
+    font-weight: 700;   
+    margin-bottom: 7px;
+}
+
+.about__text {
+    width: 75%;
+    font-size: 13px;
+    color: #6c6c6e;
+    line-height: 1.6;
+}
+
+.about__number {
+    position: absolute;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(122, 21, 21);
+    bottom: -30px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.doIt {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background: url("./fashion-black-and-white-photo-of-two-beautiful-girls_1153-3877.jpg") center no-repeat;
+    background-size: cover; 
+}
+
+.doIt__square {
+    border-top: 70px solid rgba(122, 21, 21, 0.473);
+    border-bottom: 70px solid rgba(122, 21, 21, 0.473);
+    border-right: 70px solid rgba(122, 21, 21, 0.473);
+    padding: 150px;
+    margin-top: 150px;
+    margin-left: 0;
+}
+
+.doIt__intro {
+    display: flex;
+}
+
+.doIt__info {
+    margin: 200px 0 0 200px;
+}
+
+.doIt_table {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+}
+
+.doIt__column {
+    display: flex;
+    align-items: center;
+}
+
+.doIt__column .about__text {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    padding: 30px 30px;
+    border-left: 3px solid rgba(122, 21, 21, 0.61);
+    border-right: 3px solid rgb(122, 21, 21, 0.61);
+}
+
+.beenThere {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2f2f31;
+}
+
+.beenThere__intro {
+    display: flex;
+    align-items: center;
+    padding: 75px 200px;
+    position: relative;
+}
+
+
+.main__text_red {
+    display: flex;
+    justify-content: center;
+}
+
+.beenThere__info .about__text {
+    position: relative;
+    width: 90%;
+    margin-left: 200px;
+    z-index: 0;
+    margin-bottom: 30px;
+}
+
+.beenThere__img img {
+    height: 600px;
+    border-radius: 250px;
+    z-index: -1;
+}
+
+.beenThere__info .main__button {
+    margin-left: 200px;
+}
+
+.beenThere__client {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 30px;
+    letter-spacing: 10px;
+}
+
+.works {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+.works__img {
+    width: 33.3%;
+}
